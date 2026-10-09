@@ -20,4 +20,3 @@ Chapters 7-10 will be added by the 17 Oct 2026 deadline.
 pip install numpy jupyter
 jupyter notebook
 ```
-`build_notebooks.py` is the script used to generate the notebooks.
