@@ -12,11 +12,15 @@ Code reproduction and theory summaries for each chapter of *Grokking Deep Learni
 | 4 | [04.gradientdescent.ipynb](04.gradientdescent.ipynb) | Gradient Descent | Error measures, hot-and-cold learning, derivatives, learning rate, divergence. |
 | 5 | [05.generalazinggradient.ipynb](05.generalazinggradient.ipynb) | Generalizing Gradient Descent | Learning many weights at once; multi-input/output updates; freezing weights. |
 | 6 | [06.backpropagation.ipynb](06.backpropagation.ipynb) | Backpropagation | Streetlight problem, correlation, ReLU, hidden layers, backprop algorithm. |
+| 7 | [07.visualizingnn.ipynb](07.visualizingnn.ipynb) | Visualizing Neural Networks | Layers as vectors, weights as matrices, shape rules, drawing networks. |
+| 8 | [08.regularizationbatching.ipynb](08.regularizationbatching.ipynb) | Regularization and Batching | Overfitting, early stopping, dropout, mini-batch gradient descent. |
+| 9 | [09.activationfunctions.ipynb](09.activationfunctions.ipynb) | Activation Functions | ReLU/sigmoid/tanh, softmax output, probabilities, cross-entropy gradient. |
+| 10 | [10.convolutionalnn.ipynb](10.convolutionalnn.ipynb) | Intro to Convolutional Neural Networks | Weight sharing, kernels, feature maps, edge/corner detection. |
 
-Chapters 7-10 will be added by the 17 Oct 2026 deadline.
+Chapters 8-10 use scikit-learn's bundled 8x8 digits dataset (offline) as a stand-in for MNIST.
 
 ## Running
 ```
-pip install numpy jupyter
+pip install numpy matplotlib scikit-learn jupyter
 jupyter notebook
 ```
