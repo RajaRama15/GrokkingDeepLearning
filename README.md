@@ -16,8 +16,13 @@ Code reproduction and theory summaries for each chapter of *Grokking Deep Learni
 | 8 | [08.regularizationbatching.ipynb](08.regularizationbatching.ipynb) | Regularization and Batching | Overfitting, early stopping, dropout, mini-batch gradient descent. |
 | 9 | [09.activationfunctions.ipynb](09.activationfunctions.ipynb) | Activation Functions | ReLU/sigmoid/tanh, softmax output, probabilities, cross-entropy gradient. |
 | 10 | [10.convolutionalnn.ipynb](10.convolutionalnn.ipynb) | Intro to Convolutional Neural Networks | Weight sharing, kernels, feature maps, edge/corner detection. |
+| 11 | [11.language.ipynb](11.language.ipynb) | Neural Networks that Understand Language | Bag-of-words sentiment, embedding layers, word similarity, analogies (king - man + woman). |
+| 12 | [12.rnn.ipynb](12.rnn.ipynb) | Recurrent Networks (Write Like Shakespeare) | Order in sequences, RNN hidden state, BPTT, gradient clipping, character-level text generation. |
+| 13 | [13.autograd_framework.ipynb](13.autograd_framework.ipynb) | Automatic Optimization: Building a Framework | Tensor + autograd, layers, losses, SGD, embedding, RNN cell, gradient checking. |
+| 14 | [14.lstm.ipynb](14.lstm.ipynb) | Long Short-Term Memory | Vanishing gradients, forget/input/output gates, cell state, LSTM text generation. |
+| 15 | [15.federated_learning.ipynb](15.federated_learning.ipynb) | Federated Learning | FedAvg, secure aggregation via secret sharing, differential privacy, privacy/accuracy trade-off. |
 
-Chapters 8-10 use scikit-learn's bundled 8x8 digits dataset (offline) as a stand-in for MNIST.
+Chapters 8-10 and 15 use scikit-learn's bundled 8x8 digits dataset (offline) as a stand-in for MNIST. Chapter 11 uses a small generated review corpus instead of IMDB, and Chapters 12 and 14 train on a short Shakespeare excerpt.
 
 ## Running
 ```
